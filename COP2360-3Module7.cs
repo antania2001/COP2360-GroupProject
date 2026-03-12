@@ -28,7 +28,7 @@ class PlaylistDictionary
         while (choice != "g")
         {
             // Display the menu
-            Console.WriteLine("\n========== Our Group's FAVORITE SONGS PLAYLIST ==========");
+            Console.WriteLine("\n========== OUR GROUP'S FAVORITE SONGS PLAYLIST ==========");
             Console.WriteLine("a. Populate the Playlist");
             Console.WriteLine("b. Display Playlist Contents");
             Console.WriteLine("c. Remove a Song");
@@ -216,6 +216,7 @@ class PlaylistDictionary
     }
 
 }
+
 
 
 
