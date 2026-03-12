@@ -28,7 +28,7 @@ class PlaylistDictionary
         while (choice != "g")
         {
             // Display the menu
-            Console.WriteLine("\n========== FAVORITE SONGS PLAYLIST ==========");
+            Console.WriteLine("\n========== Our Group's FAVORITE SONGS PLAYLIST ==========");
             Console.WriteLine("a. Populate the Playlist");
             Console.WriteLine("b. Display Playlist Contents");
             Console.WriteLine("c. Remove a Song");
@@ -55,7 +55,7 @@ class PlaylistDictionary
                     playlist["Overboard (feat. Jessic Jarrell)"] = new List<string> { "Justin Bieber", "Pop/R&B", "3:42", "Romance" };
                     playlist["Inolvidable"] = new List<string> { "Reik", "Latin Pop", "3:36", "Nostalgia" };
                     playlist["If Today Was Your Last Day"] = new List<string> { "Nickelback", "Pop Rock", "4:09", "Motivational anthem" };
-                    playlist["Gratitude"] = new List<string> { "Brandon Lake", "Contemporary Christian Music", "5:38", "Humility & Vulnerability"
+                    playlist["Gratitude"] = new List<string> { "Brandon Lake", "Contemporary Christian Music", "5:38", "Humility & Vulnerability"};
 
                     //Antania's Top 5 Song Playlist
                     playlist["How You Like That"] = new List<string> { "Blackpink", "Kpop", "3:04", "Party Music" };
@@ -203,7 +203,7 @@ class PlaylistDictionary
                 // Exiting the program
                 
                 case "g":
-                    Console.WriteLine("\nThanks for using the Playlist Manager. Goodbye!");
+                    Console.WriteLine("\nOur Group's Favorite Songs Playlist. See ya later alligator!");
                     break;
 
                 // Handles any wrong input from user
@@ -216,6 +216,7 @@ class PlaylistDictionary
     }
 
 }
+
 
 
 
