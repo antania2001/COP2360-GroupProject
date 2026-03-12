@@ -64,6 +64,13 @@ class PlaylistDictionary
                     playlist["Lalisa"] = new List<string> { "Lisa", "Hip hop", "3:27", " Fierce and Energetic" };
                     playlist["Like Jennie"] = new List<string> { "Jennie", "Hip hop", "2:04", "Empowering & Haughty" };
 
+                    //Ainsley's Top 5 Song Playlist
+                    playlist["Usseewa"] = new List<string> { "Ado", "Jpop", "3:27", "Anti-system" };
+                    playlist["Circle With Me"] = new List<string> { "Spiritbox", "Post-Metal", "3:53", "Ethereal and Devastating" };
+                    playlist["Metal"] = new List<string> { "BabyMetal", "Kawaii Metal", "3:42", "Celebratory and Festive" };
+                    playlist["Fancy"] = new List<string> { "Twice", "Retro-inspired electropop", "3:33", "Bold and Confident" };
+                    playlist["Otonoke"] = new List<string> { "Creepy Nuts", "J-hip hop", "3:05", "Eerie and Possessive" };
+                                                              
                     Console.WriteLine("Playlist has been uploaded with your favorite songs!");
                     break;
 
@@ -209,6 +216,7 @@ class PlaylistDictionary
     }
 
 }
+
 
 
 
