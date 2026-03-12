@@ -50,8 +50,8 @@ class PlaylistDictionary
                     Console.WriteLine("\n--- Populating Playlist ---");
 
                     // Format: playlist["Song Title"] = new List<string> { "Artist", "Genre", "Duration", "Mood" };
-                    playlist["Song Title 1"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 2"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
+                    playlist["twilight zone"] = new List<string> { "Ariana Grande", "Pop", "3:18", "Break-up" };
+                    playlist["Overboard (feat. Jessic Jarrell)"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
                     playlist["Song Title 3"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
                     playlist["Song Title 4"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
                     playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
@@ -199,4 +199,5 @@ class PlaylistDictionary
             }
         }
     }
+
 }
