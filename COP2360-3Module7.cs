@@ -57,11 +57,11 @@ class PlaylistDictionary
                     playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
 
                     //Antania Top 5 Song Paylist
-                    playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
+                    playlist["How You Like That"] = new List<string> { "Blackpink", "Kpop", "3:04", "Party Music" };
+                    playlist["DDu-Du DDu-Du"] = new List<string> { "Blackpink", "Kpop", "3:36", "Strength and Attitude" };
+                    playlist["Not Alike"] = new List<string> { "Eminem", "Rap", "4:49", "Diss Track" };
+                    playlist["Lalisa"] = new List<string> { "Lisa", "Hip hop", "3:27", " Fierce and Energetic" };
+                    playlist["Like Jennie"] = new List<string> { "Jennie", "Hip hop", "2:04", "Empowering & Haughty" };
 
                     Console.WriteLine("Playlist has been uploaded with your favorite songs!");
                     break;
@@ -208,4 +208,5 @@ class PlaylistDictionary
     }
 
 }
+
 
