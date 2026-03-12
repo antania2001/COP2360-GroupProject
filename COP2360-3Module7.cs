@@ -50,13 +50,14 @@ class PlaylistDictionary
                     Console.WriteLine("\n--- Populating Playlist ---");
 
                     // Format: playlist["Song Title"] = new List<string> { "Artist", "Genre", "Duration", "Mood" };
+                    // Laura's Top 5 Song Playlist
                     playlist["twilight zone"] = new List<string> { "Ariana Grande", "Pop", "3:18", "Break-up" };
-                    playlist["Overboard (feat. Jessic Jarrell)"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 3"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 4"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
-                    playlist["Song Title 5"] = new List<string> { "Artist Name", "Genre", "0:00", "Mood" };
+                    playlist["Overboard (feat. Jessic Jarrell)"] = new List<string> { "Justin Bieber", "Pop/R&B", "3:42", "Romance" };
+                    playlist["Inolvidable"] = new List<string> { "Reik", "Latin Pop", "3:36", "Nostalgia" };
+                    playlist["If Today Was Your Last Day"] = new List<string> { "Nickelback", "Pop Rock", "4:09", "Motivational anthem" };
+                    playlist["Gratitude"] = new List<string> { "Brandon Lake", "Contemporary Christian Music", "5:38", "Humility & Vulnerability"
 
-                    //Antania Top 5 Song Paylist
+                    //Antania's Top 5 Song Playlist
                     playlist["How You Like That"] = new List<string> { "Blackpink", "Kpop", "3:04", "Party Music" };
                     playlist["DDu-Du DDu-Du"] = new List<string> { "Blackpink", "Kpop", "3:36", "Strength and Attitude" };
                     playlist["Not Alike"] = new List<string> { "Eminem", "Rap", "4:49", "Diss Track" };
@@ -208,5 +209,6 @@ class PlaylistDictionary
     }
 
 }
+
 
 
